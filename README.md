@@ -27,7 +27,7 @@ Console:
 
 ## Project Tasks
 
-**TODO** 📝
+### TODO 📝
 - [ ] Multi Platform Support - Extend support to all major platforms.
 
 ### In Progress 🚧
