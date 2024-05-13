@@ -27,8 +27,17 @@ Console:
 
 #
 
-### Project Tasks
+# Building
 
+```
+(In src directory)
+mkdir build
+cd build
+cmake ..
+cmake --build . --config Release
+```
+
+### Project Tasks
 
 ### To Do 📝
 - [ ] Multi Platform Support - Extend support to all major platforms.
