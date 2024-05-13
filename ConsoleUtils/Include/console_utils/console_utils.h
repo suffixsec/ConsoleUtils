@@ -1,11 +1,26 @@
 #include <iostream>
-#include <windows.h>
 #include <string>
+
+#ifdef _WIN32
+#include <windows.h>
+#else
+#include <sys/ioctl.h>
+#include <unistd.h>
+#endif
 
 class ConsoleUtils {
 private:
+#ifdef _WIN32
     static HANDLE hConsole;
     static CONSOLE_CURSOR_INFO cci;
+#else
+    struct winsize {
+        unsigned short ws_row;
+        unsigned short ws_col;
+        unsigned short ws_xpixel;
+        unsigned short ws_ypixel;
+    };
+#endif
     static int cursorSize;
     static bool cursorVisibility;
 
