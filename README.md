@@ -4,7 +4,7 @@
 ### Developed and Maintained by suffix
 #
 
-## Library Overview (Functions)
+### Library Overview (Functions)
 ```
 Console:
     Initialize
