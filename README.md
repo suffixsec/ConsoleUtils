@@ -1,4 +1,4 @@
-# ConsoleUtils [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# ConsoleUtils [![License: GPL v3](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 
 ### Console Utility and Styling Library
 ### Developed and Maintained by suffix
